@@ -1,0 +1,532 @@
+/* start tab */
+.tab {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    height: 30px;
+    padding-right: 100px;
+}
+
+.email_example {
+    text-decoration: none;
+}
+
+.email_example:hover {
+    transition: all .5 linear;
+    color: red !important;
+}
+
+
+/* end tab */
+
+/* start nav */
+
+nav li:hover,
+nav .active,
+nav li a:hover {
+    background-color: red;
+    color: blue !important;
+
+}
+
+nav li {
+    color: blue;
+    height: 100%;
+}
+
+.dropdown-menu {
+    background-color: white !important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: red;
+}
+
+.dropdown-menu li a {
+    color: black !important;
+}
+
+/* end nav  */
+/* start landing */
+.landing {
+    background-image: url('../img/hero-bg.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.pt-edit {
+    padding-top: 10.5rem;
+}
+
+.btn1 {
+    width: 200px;
+    height: 45px;
+    border: 2px solid white;
+}
+
+.btn1:hover {
+    background-color: red;
+    color: black;
+    transition: all 0.5s;
+}
+
+/* end landing */
+/* start about */
+.about {
+    background-color: white !important;
+}
+
+/* end about */
+.companies {
+    width: 100%;
+    height: 40px;
+}
+
+.companies .i {
+    transform: scale(.7);
+    filter: grayscale(100%);
+}
+
+.companies .i:hover {
+    transform: scale(1);
+    filter: contrast(200%);
+    transition: all .5s;
+}
+
+/* start services */
+.services {
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+
+}
+
+.services .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+.services span {
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    top: 55px;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-body:hover {
+    background-color: red;
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.a:hover {
+    color: black;
+}
+
+.icon {
+    width: 70px;
+    height: 30% !important;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.icon::after {
+
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: #fce5e5;
+    z-index: -1;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+}
+
+/* end services */
+/* start cta */
+.cta {
+    background-image: url('../img/cta-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.cta_text {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    width: 200px;
+    height: 45px;
+    border: 2px solid white;
+    background-color: gray;
+
+}
+
+.btn2:hover {
+    background-color: red;
+    transition: all .5s;
+}
+
+/* end cta */
+/* start price */
+
+.price_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.price {
+
+    width: 100%;
+    height: fit-content;
+
+}
+
+.paragraph_1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+}
+
+.buy:hover {
+    opacity: .5;
+}
+
+.buy2 {
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: rgb(216, 45, 45);
+    color: white;
+}
+
+.buy2:hover {
+    opacity: .5;
+    background-color: white;
+}
+
+.paragraph_2 {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/* end price  */
+/* start portfolio */
+
+
+.portfolio {
+    height: fit-content;
+    width: 100%;
+}
+
+.portfolio_header {
+    flex-direction: column;
+    height: 20%;
+}
+
+.portfolio_filter {
+    color: black;
+    height: 8%;
+    outline: none;
+    border: none;
+    width: 70px
+}
+
+.portfolio_filter:hover {
+    color: orangered;
+}
+
+.portfolio .active {
+    color: orangered;
+}
+
+/* end portfolio */
+/* start team */
+.team {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+
+}
+
+.team_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.team_img_1 {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+
+
+}
+
+.none {
+    pointer-events: none;
+    color: black
+}
+
+.icons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team span {
+    position: absolute;
+
+    color: #f4f4f4;
+    top: 39px;
+    z-index: 0;
+    /* font-weight: 1200px; */
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+/* end team */
+/* start contact  */
+.contact {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+}
+
+.contact span {
+    position: absolute;
+
+    color: #f4f4f4;
+    top: 1px;
+    z-index: 0;
+    /* font-weight: 1200px; */
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_location {
+    position: relative;
+}
+
+.icon_location:after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px dashed red;
+    top: -15px;
+    left: -4px;
+}
+
+.icon_email {
+    position: relative;
+}
+
+.icon_email:after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px dashed red;
+    top: -15px;
+    left: -4px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.call_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_call::after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px dashed red;
+    top: -15px;
+    left: -4px;
+}
+
+.icon_call {
+    position: relative;
+}
+
+.text_area {
+    height: 150px;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_send {
+    /* border: 2px solid black; */
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color: red;
+}
+
+.btn_send:hover {
+    opacity: 0.5;
+    transition: all .5s linear;
+}
+
+/* end contact  */
+/* start subscribe */
+.subscribe {
+    height: fit-content;
+    width: 100%;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: black;
+    height: 300px;
+    /* width: 300px; */
+    width: 100%;
+    
+}
+
+.info:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.icon_1 {
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.none2 {
+    text-decoration: none;
+    color: black;
+}
+
+.none2:hover {
+    color: red;
+}
+
+.input_1 {
+    background-color: white;
+    height: 40px;
+    width: 70%;
+    box-shadow: none;
+}
+
+.input_2 {
+    background-color: red;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.input_2:hover {
+    opacity: 0.5;
+}
+
+/* end subscribe */
